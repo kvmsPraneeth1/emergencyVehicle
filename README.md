@@ -28,7 +28,7 @@ You can get SUMO on Windows either by running the official MSI installer (or ext
    1. Open **System Properties → Advanced → Environment Variables**.  
    2. Edit your **Path** user variable and append:  
       ```
-      ;C:\Program Files\sumo-1.22.0\bin
+      C:\Program Files\sumo-1.22.0\bin
       ```  
    3. Create a new user variable **SUMO_HOME** pointing to:  
       ```
@@ -52,7 +52,7 @@ You can get SUMO on Windows either by running the official MSI installer (or ext
 3. **Launch the MSYS shell** by double-clicking `mingwenv.cmd` in that folder. This shell comes pre-configured with MinGW gcc and Unix tools.  ([OMNeT++ - Simulation Manual - Index of](https://doc.omnetpp.org/omnetpp/manual/?utm_source=chatgpt.com))  
 4. In the MSYS prompt, initialize the environment and build:  
    ```bash
-   . setenv
+   ./setenv
    ./configure
    make
    ```  
