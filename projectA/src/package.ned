@@ -1,0 +1,3 @@
+package projecta;
+
+@license(LGPL);
